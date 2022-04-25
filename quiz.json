@@ -1,8 +1,8 @@
 {
   "myQuestions": [
     {
-      "question":
-        "Which of the following keywords is used to define a variable in Javascript?",
+      "id": 1,
+      "question": "Which of the following keywords is used to define a variable in Javascript?",
       "answer": {
         "a": "var",
         "b": "let",
@@ -10,9 +10,13 @@
         "d": "int"
       },
       "multi": true,
-      "correctAnswer": ["a", "b"]
+      "correctAnswer": [
+        "a",
+        "b"
+      ]
     },
     {
+      "id": 2,
       "question": "JavaScript is a _______ language.",
       "answer": {
         "a": "Programming",
@@ -24,8 +28,8 @@
       "correctAnswer": "a"
     },
     {
-      "question":
-        "Which of the following is a valid type of function javascript supports ?",
+      "id": 3,
+      "question": "Which of the following is a valid type of function javascript supports ?",
       "answer": {
         "a": "named function",
         "b": "anonymous function",
@@ -36,8 +40,8 @@
       "correctAnswer": "c"
     },
     {
-      "question":
-        "Which built-in method returns the index within the calling String object of the first occurence of the specified value ?",
+      "id": 4,
+      "question": "Which built-in method returns the index within the calling String object of the first occurence of the specified value ?",
       "answer": {
         "a": "getIndex()",
         "b": "location()",
@@ -48,8 +52,8 @@
       "correctAnswer": "c"
     },
     {
-      "question":
-        "Which one of the following is a valid data type of JavaScript  ?",
+      "id": 5,
+      "question": "Which one of the following is a valid data type of JavaScript  ?",
       "answer": {
         "a": "number",
         "b": "void",
