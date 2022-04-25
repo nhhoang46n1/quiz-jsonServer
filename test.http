@@ -23,7 +23,7 @@ Content-Type: application/json
 
 # @name removeQuiz
 
-DELETE {{baseUrl}}/myQuestions/
+DELETE {{baseUrl}}/myQuestions/6
 
 ###
 

@@ -1,66 +1,56 @@
 {
   "myQuestions": [
     {
-      "id": 1,
-      "question": "Which is correct?",
-      "answers": {
-        "a": "typeof null = object",
-        "b": "typeof null = null",
-        "c": "typeof function = function",
-        "d": "typeof function = undefined"
+      "question":
+        "Which of the following keywords is used to define a variable in Javascript?",
+      "answer": {
+        "a": "var",
+        "b": "let",
+        "c": "const",
+        "d": "int"
       },
       "multi": true,
-      "correctAnswer": [
-        "a",
-        "c"
-      ]
+      "correctAnswer": ["a", "b"]
     },
     {
-      "id": 2,
-      "question": "Javascript is _________ language.",
-      "answers": {
+      "question": "JavaScript is a _______ language.",
+      "answer": {
         "a": "Programming",
         "b": "Application",
         "c": "None of These",
         "d": "Scripting"
       },
-      "multi": true,
-      "correctAnswer": [
-        "a",
-        "d"
-      ]
+      "multi": false,
+      "correctAnswer": "a"
     },
     {
-      "id": 3,
-      "question": "Which of the following is a valid type of function javascript supports?",
-      "answers": {
+      "question":
+        "Which of the following is a valid type of function javascript supports ?",
+      "answer": {
         "a": "named function",
         "b": "anonymous function",
-        "c": "both of the above",
+        "c": "bot of the above",
         "d": "none of the above"
       },
       "multi": false,
       "correctAnswer": "c"
     },
     {
-      "id": 4,
-      "question": "Which is object methods?",
-      "answers": {
-        "a": "forEach()",
-        "b": "entries()",
+      "question":
+        "Which built-in method returns the index within the calling String object of the first occurence of the specified value ?",
+      "answer": {
+        "a": "getIndex()",
+        "b": "location()",
         "c": "indexOf()",
-        "d": "keys()"
+        "d": "getLocation()"
       },
-      "multi": true,
-      "correctAnswer": [
-        "b",
-        "d"
-      ]
+      "multi": false,
+      "correctAnswer": "c"
     },
     {
-      "id": 5,
-      "question": "Which one of the following is valid data type of JavaScript",
-      "answers": {
+      "question":
+        "Which one of the following is a valid data type of JavaScript  ?",
+      "answer": {
         "a": "number",
         "b": "void",
         "c": "boolean",
