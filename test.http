@@ -1,0 +1,37 @@
+# quizzes
+
+@baseUrl = http://localhost:3000/api
+
+# @name getAllQuizzes
+GET {{baseUrl}}/myQuestions
+
+###
+
+# @name addNewQuiz
+POST {{baseUrl}}/myQuestions
+Content-Type: application/json
+
+{ 
+    "question" : "How r u",
+    "answer" : {
+        "a" : 123
+    },
+    "correctAnswer" : "a"
+}
+
+###
+
+# @name removeQuiz
+
+DELETE {{baseUrl}}/myQuestions/
+
+###
+
+# @name updateQuiz
+
+PATCH  {{baseUrl}}/myQuestions/6
+Content-Type: application/json
+
+{
+   "question" : "How are you ???"
+}

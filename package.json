@@ -1,0 +1,22 @@
+{
+  "name": "quiz_app_json-server",
+  "version": "1.0.0",
+  "description": "json-server for quiz app",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon script.js",
+    "start" : "node script.js"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "Hoang Nguyen",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
